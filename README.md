@@ -14,7 +14,7 @@ Este projeto implementa um **sistema de leilões (auctions)** em Go, utilizando 
 
 ## 🧩 Estrutura do Projeto
 
-
+```
 ├── auction
 ├── cmd
 │   └── auction
@@ -76,6 +76,7 @@ Este projeto implementa um **sistema de leilões (auctions)** em Go, utilizando 
 ├── go.sum
 ├── Makefile
 └── README.md
+```
 
 ## 🚀 Execução
 ```bash
