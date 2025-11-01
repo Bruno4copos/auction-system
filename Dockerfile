@@ -7,6 +7,7 @@ COPY go.sum ./
 RUN go mod download
 
 COPY . .
+COPY cmd/auction/.env /app/.env
 
 RUN go build -o /app/auction cmd/auction/main.go
 
